@@ -14,7 +14,7 @@ const HeaderContainer = () => {
         <Container style={{background: "linear-gradient(17deg, rgba(0,0,0,1) 0%, rgba(45,134,90,1) 0%, rgba(168,255,213,1) 57%, rgba(181,252,217,1) 99%)", paddingBottom: "15%"}} fluid>
             <Row>
                 <Col>
-                   <Image style={{width: "300px", marginTop: "10%"}} src={Ryan} roundedCircle />
+                   <Image style={{ marginTop: "10%"}} src={Ryan} roundedCircle />
                    <h1 style={{marginTop: "2%" }}>Hi, I'm Ryan Anderson</h1>
                    <h2>Freelance Web Developer</h2>
                    
