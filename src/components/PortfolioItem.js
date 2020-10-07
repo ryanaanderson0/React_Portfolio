@@ -14,14 +14,10 @@ const Image = styled.img`
     box-shadow: 10px 30px;
 
 `
-const Div = styled.div`
-    background-color: #243D49;
-
-`
 const PortfolioItem = () => {
 
     return (
-        <Div>
+        <div>
             <h1>CURRENT PROJECTS</h1>
 
             <section>
@@ -34,7 +30,7 @@ const PortfolioItem = () => {
                 <Image src={crumbshotImg} />
             </section>
            
-         </Div>
+         </div>
         )
     
 }

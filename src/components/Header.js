@@ -7,7 +7,6 @@ import styled from 'styled-components'
 
 
 const Div = styled.div`
-    background-color: #243D49;
     padding: 25%;
 `
 
