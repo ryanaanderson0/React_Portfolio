@@ -15,7 +15,7 @@ const Image = styled.img`
 
 `
 const Div = styled.div`
-    background-color: #343a40;
+    background-color: #243D49;
 
 `
 const PortfolioItem = () => {

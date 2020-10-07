@@ -1,34 +1,52 @@
 import React from 'react'
-import Ryan from '../assets/Ryan_Resize2.jpg'
+import '../App.css'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
+import styled from 'styled-components'
 
+
+const Div = styled.div`
+    background-color: #243D49;
+    padding: 25%;
+`
+
+const LargeHeader = styled.h1`
+    font-size: 3.5em;
+    color: #EBEBEB;
+    padding-bottom: 25px;
+`
+
+const Strong = styled.strong`
+    font-size: 1em;
+    text-transform: uppercase;
+    background-color: #B4F1CD;
+    color: black;
+    padding: 8px;
+    margin: 10px;
+    box-shadow: 10px 20px;
+`
 
 
 const HeaderContainer = () => {
 
     return(
-     <>
-        <Container style={{background: "linear-gradient(17deg, rgba(0,0,0,1) 0%, rgba(45,134,90,1) 0%, rgba(168,255,213,1) 57%, rgba(181,252,217,1) 99%)", paddingBottom: "15%"}} fluid>
+
+     <Div>
+        <Container fluid>
             <Row>
                 <Col>
-                   <Image style={{ marginTop: "10%"}} src={Ryan} roundedCircle />
-                   <h1 style={{marginTop: "2%" }}>Hi, I'm Ryan Anderson</h1>
-                   <h2>Freelance Web Developer</h2>
+                   <LargeHeader>Hi, I'm <Strong>Ryan Anderson</Strong></LargeHeader>
+                   <LargeHeader>I'm a Freelance Web Developer</LargeHeader>
                    
-                    <p>I'm a recent Seattle transplant with a passion for delicious food, chihuahua cuddles, and clean website design. I have an Associates in Web Development and am pursuing a Bachelors in Computer Science. I have been freelancing for over a year now, mainly using WordPress.
+                    {/* <p>I'm a recent Seattle transplant with a passion for delicious food, chihuahua cuddles, and clean website design. I have an Associates in Web Development and am pursuing a Bachelors in Computer Science. I have been freelancing for over a year now, mainly using WordPress.
                     </p>
-                    <p>Thanks for visiting my portfolio and I look forward to working with you!</p>
-                 
-
-                
+                    <p>Thanks for visiting my portfolio and I look forward to working with you!</p> */}
+                    
                 </Col>
             </Row>
-        </Container>
-       
-    </>   
+        </Container> 
+    </Div>   
     )
 }
 

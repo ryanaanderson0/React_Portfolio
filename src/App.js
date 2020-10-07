@@ -10,6 +10,7 @@ function App() {
       <NavbarContainer />
       <HeaderContainer />
       <PortfolioItem />
+
     </div>
   );
 }
