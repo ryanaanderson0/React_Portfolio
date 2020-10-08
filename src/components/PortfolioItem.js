@@ -10,8 +10,12 @@ const Image = styled.img`
     border-radius: 15px;
     width: 40%;
     height: 40%;
+    box-shadow: 10px 30px #2B2D2F;
+    transition: all .2s ease-in-out;
 
-    box-shadow: 10px 30px;
+    &:hover{
+        transform: scale(1.1);
+    }
 
 `
 const PortfolioItem = () => {
@@ -21,8 +25,14 @@ const PortfolioItem = () => {
             <h1>CURRENT PROJECTS</h1>
 
             <section>
-                <Image src={upstageImg}/> 
-                <Image src={bigsmileImg} />
+                <a href="https://upstage.directory/" target="_blank" rel="noopener noreferrer">
+                  <Image src={upstageImg}/>   
+                </a>
+                
+                <a href="https://bigsmile.co/" target="_blank" rel="noopener noreferrer">
+                    <Image src={bigsmileImg} />
+                </a>
+                
             </section>
 
             <section>
