@@ -30,22 +30,18 @@ const Strong = styled.strong`
 const HeaderContainer = () => {
 
     return(
-
+    <>
      <Div>
         <Container fluid>
             <Row>
                 <Col>
                    <LargeHeader>Hi, I'm <Strong>Ryan Anderson</Strong></LargeHeader>
-                   <LargeHeader>I'm a Freelance Web Developer</LargeHeader>
-                   
-                    {/* <p>I'm a recent Seattle transplant with a passion for delicious food, chihuahua cuddles, and clean website design. I have an Associates in Web Development and am pursuing a Bachelors in Computer Science. I have been freelancing for over a year now, mainly using WordPress.
-                    </p>
-                    <p>Thanks for visiting my portfolio and I look forward to working with you!</p> */}
-                    
+                   <LargeHeader>I'm a Web Developer</LargeHeader>  
                 </Col>
             </Row>
         </Container> 
-    </Div>   
+    </Div> 
+    </>  
     )
 }
 
