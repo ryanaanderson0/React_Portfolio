@@ -71,12 +71,12 @@ const PortfolioItem = () => {
                 <h1 style={{ display: "inline", backgroundImage: "linear-gradient( #b5bfc4 60%, #B4F1CD 55%)"}}>CURRENT PROJECTS</h1>
 
                 <Row>
-                    <Col xs={12}>
+                    <Col xs={12} md={6}>
                         <a href="https://upstage.directory/" target="_blank" rel="noopener noreferrer">
                             <Image src={upstageImg}/>   
                         </a>
                     </Col>
-                    <Col xs={12}>
+                    <Col xs={12} md={6}>
                         <PortfolioContent >
                         <h3>Upstage Directory</h3>
 
@@ -99,12 +99,12 @@ const PortfolioItem = () => {
                 </Row>
                     <hr style={{fontSize: "25px"}}/>
                 <Row>
-                    <Col xs={12}>
+                    <Col xs={12} md={6}>
                         <a href="https://gghf.com/" target="_blank" rel="noopener noreferrer">
                             <Image src={goodgoodImg} />   
                         </a>
                     </Col>
-                    <Col xs={12}>
+                    <Col xs={12} md={6}>
                         <PortfolioContent>
                             <h2>Good Good Hemp Farm</h2>
 
@@ -125,12 +125,12 @@ const PortfolioItem = () => {
                 </Row>
 
                 <Row>
-                    <Col xs={12}>
+                    <Col xs={12} md={6}>
                         <a href="https://bigsmile.co" target="_blank" rel="noopener noreferrer">
                             <Image src={bigsmileImg} />   
                         </a>
                     </Col>
-                    <Col xs={12}>
+                    <Col xs={12} md={6}>
                         <PortfolioContent>
                                 <h2>Big Smile Co.</h2>
 
@@ -151,12 +151,12 @@ const PortfolioItem = () => {
                 </Row>
 
                 <Row>
-                    <Col xs={12}>
+                    <Col xs={12} md={6}>
                         <a href="https://crumbshotblog.com" target="_blank" rel="noopener noreferrer">
                             <Image src={crumbshotImg} />   
                         </a>
                     </Col>
-                    <Col xs={12}>
+                    <Col xs={12} md={6}>
                         <PortfolioContent>
                                 <h2>Crumb Shot Food Blog.</h2>
 
