@@ -7,6 +7,15 @@ import upstageImg from "../assets/upstage.directory_screenshot - Copy.png"
 import bigsmileImg from "../assets/bigsmile.co_about_crop.png"
 import goodgoodImg from "../assets/GoodGood_Capture.png"
 import crumbshotImg from "../assets/Crumbshot_Capture.png"
+import htmlIcon from "../assets/HTML.png"
+import cssIcon from "../assets/css3.png"
+import phpIcon from "../assets/php.png"
+import reactIcon from "../assets/reactJs.png"
+import mongodbIcon from "../assets/mongodb.png"
+import mysqlIcon from "../assets/mySQL.png"
+import wordpressIcon from "../assets/wordpress.png"
+import bootstrapIcon from "../assets/bootstrap.png"
+import jsIcon from "../assets/js.png"
 
 const Image = styled.img`
     margin: 2%;
@@ -62,12 +71,12 @@ const PortfolioItem = () => {
                 <h1 style={{ display: "inline", backgroundImage: "linear-gradient( #b5bfc4 60%, #B4F1CD 55%)"}}>CURRENT PROJECTS</h1>
 
                 <Row>
-                    <Col>
+                    <Col xs={12}>
                         <a href="https://upstage.directory/" target="_blank" rel="noopener noreferrer">
                             <Image src={upstageImg}/>   
                         </a>
                     </Col>
-                    <Col>
+                    <Col xs={12}>
                         <PortfolioContent >
                         <h3>Upstage Directory</h3>
 
@@ -77,8 +86,8 @@ const PortfolioItem = () => {
                         <section>
                             <h4>Technologies Used:</h4>
                             
-                            <p>WordPress Icon</p>
-                            <p>CSS3 Icon</p>
+                            <img src={cssIcon} style={{width: "15%"}}/>
+                            <img src={wordpressIcon} style={{width: "15%"}} />
                         </section>
                            
                         <section>
@@ -90,12 +99,12 @@ const PortfolioItem = () => {
                 </Row>
                     <hr style={{fontSize: "25px"}}/>
                 <Row>
-                    <Col>
+                    <Col xs={12}>
                         <a href="https://gghf.com/" target="_blank" rel="noopener noreferrer">
                             <Image src={goodgoodImg} />   
                         </a>
                     </Col>
-                    <Col>
+                    <Col xs={12}>
                         <PortfolioContent>
                             <h2>Good Good Hemp Farm</h2>
 
@@ -116,12 +125,12 @@ const PortfolioItem = () => {
                 </Row>
 
                 <Row>
-                    <Col>
+                    <Col xs={12}>
                         <a href="https://bigsmile.co" target="_blank" rel="noopener noreferrer">
                             <Image src={bigsmileImg} />   
                         </a>
                     </Col>
-                    <Col>
+                    <Col xs={12}>
                         <PortfolioContent>
                                 <h2>Big Smile Co.</h2>
 
@@ -142,12 +151,12 @@ const PortfolioItem = () => {
                 </Row>
 
                 <Row>
-                    <Col>
+                    <Col xs={12}>
                         <a href="https://crumbshotblog.com" target="_blank" rel="noopener noreferrer">
                             <Image src={crumbshotImg} />   
                         </a>
                     </Col>
-                    <Col>
+                    <Col xs={12}>
                         <PortfolioContent>
                                 <h2>Crumb Shot Food Blog.</h2>
 
@@ -170,25 +179,6 @@ const PortfolioItem = () => {
 
 
            </Container>
-
-
-
-
-           {/* <section>
-                <a href="https://upstage.directory/" target="_blank" rel="noopener noreferrer">
-                  <Image src={upstageImg}/>   
-                </a>
-                
-                <a href="https://bigsmile.co/" target="_blank" rel="noopener noreferrer">
-                    <Image src={bigsmileImg} />
-                </a>
-                
-            </section>
-
-            <section>
-                <Image src={goodgoodImg}/> 
-                <Image src={crumbshotImg} />
-            </section> */}
          </>
         )
     

@@ -6,21 +6,29 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-const ContactSection = styled.section`
-    margin: 50px 0;
+const ContactSection = styled.div`
+    margin: auto;
+    background-color: #B4F1CD;
+    padding: 50px;
+    box-shadow: 10px 20px;
+    border-radius: 16px;
+    width: 65vw;
+    
+    
 `
 const Contact = () => {
 
     return(
         <>
+        <Container fluid style={{margin: "100px 0"}}>
             <ContactSection>
-            <Container style={{width: "35%", backgroundColor: "#B4F1CD" , padding: "50px", boxShadow: "10px 20px", borderRadius: "16px"}}>
+            
                 <h2>Contact</h2>
                 <p>I'd love to hear from you! Drop me a line below</p>
                 <Row >
                     <Col >
                         
-                        <Form >
+                        <Form>
                             <Form.Group controlId="contactForm.ControlInput1">
                                 <Form.Label style={{textAlign:"start"}}>Email address</Form.Label>
                                 <Form.Control size="lg" type="name" placeholder="Name Namerson" />
@@ -40,8 +48,9 @@ const Contact = () => {
                         </Form>
                     </Col>
                 </Row>
-            </Container>
-            </ContactSection>
+           
+                </ContactSection>
+             </Container>
         </>
 
     )

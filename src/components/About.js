@@ -3,6 +3,17 @@ import styled from 'styled-components'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import htmlIcon from "../assets/HTML.png"
+import cssIcon from "../assets/css3.png"
+import phpIcon from "../assets/php.png"
+import reactIcon from "../assets/reactJs.png"
+import mongodbIcon from "../assets/mongodb.png"
+import mysqlIcon from "../assets/mySQL.png"
+import wordpressIcon from "../assets/wordpress.png"
+import bootstrapIcon from "../assets/bootstrap.png"
+import jsIcon from "../assets/js.png"
+
+
 
 
 
@@ -54,6 +65,12 @@ const ShadowButton = styled.button`
     transform: translateY(-7px);
  }
 `
+const TechnologiesSection = styled.section`
+    width: 100vw;
+    padding: 20px;
+    margin-top: 50px;
+`
+
 
 
 
@@ -75,13 +92,51 @@ const About = () => {
                         </Col>
                     </Row>
 
-                    <Row>
-                        <Col>
-                            <SubHeader>Technologies I Use</SubHeader>
-
+                    
                         
-                        </Col>
-                    </Row>
+                            <TechnologiesSection>
+                                <SubHeader>Technologies I Use</SubHeader>
+                                
+                                <Row style={{margin: "30px 0 30px 0"}}>
+                                <Col>
+                                    <img src={htmlIcon} />
+                                    </Col>
+                                    <Col>
+                                    <img src={cssIcon} />
+                                    </Col>
+                               
+                                    <Col>
+                                     <img src={reactIcon} />
+                                    </Col>
+
+                                    <Col>
+                                    <img src={wordpressIcon} />
+                                    </Col>
+
+                                    <Col>
+                                    <img src={jsIcon} />
+                                    </Col>
+
+                                </Row>
+                                <Row style={{margin: "30px 0 30px 0"}}>
+                                    <Col>
+                                        <img src={phpIcon} />
+                                    </Col>
+                                    <Col>
+                                        <img src={mysqlIcon} />
+                                    </Col>
+                                    <Col>
+                                        <img src={mongodbIcon} />
+                                    </Col>
+                                    
+                                    <Col>
+                                    <img src={bootstrapIcon} />
+                                    </Col>
+                                
+                             </Row>
+                            </TechnologiesSection>
+                        
+                  
                </section>
            </AboutContainer>
 

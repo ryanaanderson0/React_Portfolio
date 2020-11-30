@@ -7,7 +7,7 @@ import styled from 'styled-components'
 
 
 const Div = styled.div`
-    padding: 25%;
+   height: 100vh;
 `
 
 const LargeHeader = styled.h1`
@@ -25,6 +25,10 @@ const Strong = styled.strong`
     margin: 10px;
     box-shadow: 10px 20px;
 `
+const GreetingSection = styled.section `
+    padding-top: 20vh;
+
+`
 
 
 const HeaderContainer = () => {
@@ -35,8 +39,10 @@ const HeaderContainer = () => {
         <Container fluid>
             <Row>
                 <Col>
-                   <LargeHeader>Hi, I'm <Strong>Ryan Anderson</Strong></LargeHeader>
-                   <LargeHeader>I'm a Web Developer</LargeHeader>  
+                    <GreetingSection>
+                        <LargeHeader>Hi, I'm <Strong>Ryan Anderson</Strong></LargeHeader>
+                        <LargeHeader>I'm a Web Developer</LargeHeader>  
+                    </GreetingSection>         
                 </Col>
             </Row>
         </Container> 
