@@ -97,7 +97,7 @@ const PortfolioItem = () => {
                         </PortfolioContent>
                     </Col>
                 </Row>
-                    <hr style={{fontSize: "25px"}}/>
+                    <hr style={{border: ".25px solid #343a40", width: "45vw"}}/>
                 <Row>
                     <Col xs={12} md={6}>
                         <a href="https://gghf.com/" target="_blank" rel="noopener noreferrer">
@@ -123,6 +123,8 @@ const PortfolioItem = () => {
                         </PortfolioContent>
                     </Col>
                 </Row>
+
+                <hr style={{border: ".25px solid #343a40", width: "45vw"}}/>
 
                 <Row>
                     <Col xs={12} md={6}>
@@ -150,6 +152,8 @@ const PortfolioItem = () => {
                     </Col>
                 </Row>
 
+                <hr style={{border: ".25px solid #343a40", width: "45vw"}}/>
+                
                 <Row>
                     <Col xs={12} md={6}>
                         <a href="https://crumbshotblog.com" target="_blank" rel="noopener noreferrer">
